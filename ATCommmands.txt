@@ -1,0 +1,17 @@
+
+Auto baud:
+AT
+
+
+Put into text mode:
+AT+CMGF=1
+
+Read all messages:
+AT+CMGL="ALL"
+
+Read particular message:
+AT+CMGR=2
+
+
+Sleep mode:
+AT+CSCLK=2

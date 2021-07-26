@@ -12,6 +12,24 @@ AT+CMGL="ALL"
 Read particular message:
 AT+CMGR=2
 
+example op:
+AT+CMGR=1
++CMGR: "REC UNREAD","+447747465192","","21/07/22,16:05:19+04"
+Test
+
+OK
+
+
+
+Delete all messages
+AT+CMGD=2,4
 
 Sleep mode:
 AT+CSCLK=2
+
+Wake mode:
+AT+CSCLK=0
+
+
+When we get a message (the 1 is the message index):
++CMTI: "SM",1

@@ -33,3 +33,23 @@ AT+CSCLK=0
 
 When we get a message (the 1 is the message index):
 +CMTI: "SM",1
+
+Routine:
+
+sleep
+wake
+check all messages
+
+
+check voltage:
+AT+CBC
+
+    AT+CBC
+    +CBC: 0,74,3994
+
+    OK
+
+00000000 41 54 2b 43 42 43 0d 0d   0a 2b 43 42 43 3a 20 30 	AT+CBC␍␍  ␊+CBC: 0
+00000016 2c 37 34 2c 33 39 39 34   0d 0a 0d 0a 4f 4b 0d 0a 	,74,3994  ␍␊␍␊OK␍␊
+
+
